@@ -116,11 +116,34 @@ section {
     display: flex;
     width:0px 100px 0px 100px;
     padding: 50px 100px 50px 100px;
-    margin :300px;
-    margin-top:100px;
-    margin-bottom: none;
-    text-align: center;
+    
+    margin:50px 200px 0px 200px;
+    margin-top:100px 150px 0px 150px;
+    
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     gap: 200px;
+}
+
+.discount-offer{
+    display: flex;
+    margin-top: 100px;
+}
+ .discount{
+        text-align: center;
+        padding:130px 100px 0px 200px;
+ }
+ .discount-flower{
+    text-align: center;
+    padding:70px 100px 0px 200px;
+ }
+ .discount-flower{
+    width: 250px;
+    height: 300px;
+ }
+ .off{
+    color:red
+ }
+ 
+
     
