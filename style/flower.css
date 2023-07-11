@@ -1,3 +1,40 @@
-h3{
-    color: red;
+section{
+    background: rgba(229, 84, 115, 0.10);
 }
+.banner-contain {
+    display: flex;
+    justify-content: space-around;
+}
+.banner-text {
+    padding: 150px
+}
+.banner-title-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-photo {
+    padding: 50px
+}
+.banner-pic {
+    width: 635px;
+    height: 680px;
+}
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+}
+.btn-primary{
+    background: #E55473;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color:white;
+    border:none;
+}
+
