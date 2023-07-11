@@ -1,13 +1,16 @@
-section{
+section {
     background: rgba(229, 84, 115, 0.10);
 }
+
 .banner-contain {
     display: flex;
     justify-content: space-around;
 }
+
 .banner-text {
     padding: 150px
 }
+
 .banner-title-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -15,26 +18,109 @@ section{
     font-weight: 400;
     line-height: 30px;
 }
+
 .banner-photo {
     padding: 50px
 }
+
 .banner-pic {
     width: 635px;
     height: 680px;
 }
+
 .banner-title {
     color: #272727;
     font-family: Lato;
     font-size: 50px;
     font-weight: 800;
 }
-.btn-primary{
+
+.btn-primary {
     background: #E55473;
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
-    color:white;
-    border:none;
+    color: white;
+    border: none;
 }
 
+.feature {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.primary-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.primary-text-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.feature-container {
+    display: flex;
+    padding: 100px;
+
+
+}
+
+.flower {
+    padding: 0px 200px 0px 300px;
+
+
+}
+
+.flower-1 {
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+
+}
+
+.flower-2 {
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3 {
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.social-container {
+    display: flex;
+    width:0px 100px 0px 100px;
+    padding: 50px 100px 50px 100px;
+    margin :300px;
+    margin-top:100px;
+    margin-bottom: none;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    gap: 200px;
+    
