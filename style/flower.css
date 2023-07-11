@@ -37,12 +37,15 @@ section {
 
 .btn-primary {
     background: #E55473;
+    width: 150px;
+    height: 64px;
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
     color: white;
     border: none;
+
 }
 
 .feature {
@@ -153,13 +156,46 @@ section {
     display: flex;
     width: 200px;
     height: 250px;
-    gap:30px;
+    gap: 30px;
     padding: 100px 300px 100px 380px;
 
 }
-.img-3{
-    background:lightgray 50% / cover no-repeat;;
+
+.img-3 {
+    background: lightgray 50% / cover no-repeat;
+    ;
 }
-.img-4{
-    background:  lightgray -11.535px 0px / 173.728% 100% no-repeat;
+
+.img-4 {
+    background: lightgray -11.535px 0px / 173.728% 100% no-repeat;
+}
+
+.deals-contain {
+    width: 1440px;
+    height: 449px;
+    text-align: center;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 100px 220px 100px 220px;
+    padding-top: 100px;
+}
+
+.deals-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.text-area {
+    width: 700px;
+    height: 64px;
 }
