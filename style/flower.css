@@ -199,3 +199,20 @@ section {
     width: 700px;
     height: 64px;
 }
+
+.company {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.shop{
+    color:white
+}
+
+.company-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800px;
+}
